@@ -3,7 +3,7 @@
     <name>Leaving Area</name>
     <description>An app to set geolocation and send an sms when you leave the area.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://10.0.0.2:8100" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />
     <allow-intent href="http://*/*" />

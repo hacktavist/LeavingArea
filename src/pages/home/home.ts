@@ -46,7 +46,7 @@ export class HomePage {
       this.geofence.onTransitionReceived().subscribe(resp => {
         this.sms.send('##########', 'I am going out');
       });
-
+      console.log(fence);
       this.navCtrl.push(ActivePage);
 
     }).catch((error) => {
